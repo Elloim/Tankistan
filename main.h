@@ -31,13 +31,14 @@ void printMsPerFrame(double* LastTime, int* nbFrames);
 // Definition variables globales
 
 const char * cubeVertexFilename = "./Shaders/cubeVertex.glsl";
+const char * lightCubeVertexFilename = "./Shaders/lightcubeVertex.glsl";
 const char * fragmentFilename = "./Shaders/fragment.glsl";
 const char * lightFragmentFilename = "./Shaders/lightFragment.glsl";
 
 int width = 1900;
 int height = 1400;
 
-vec3 pos = {-2.0, 0.0, 1.0};
+vec3 pos = {7.0, 6.0, 5.0};
 vec3 lightPos =  {7.0, 5.0, 5.0};
 vec3 lightColor = {1., 1.0, 1.0};
 vec3 direction = {1.0, 0.0, 0.0};

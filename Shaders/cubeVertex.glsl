@@ -3,12 +3,12 @@
 in vec3 position;
 in vec3 normal;
 in vec3 color;
+in mat4 model;
 
 out vec3 Color;
 out vec3 Normal;
 out vec3 FragPos;
 
-uniform mat4 model;
 uniform mat4 view;
 uniform mat4 proj;
 
